@@ -21,6 +21,10 @@ I chose a very simple design because it is easier to make everything compatible 
 - VueJS 2
 - Laravel 8
 
+## Design Framework Used
+
+- Vuetify
+
 ## APIs Used
 
 - FourSquare Places API (Need to signup and get API key)
