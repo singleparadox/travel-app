@@ -29,7 +29,7 @@ I chose a very simple design because it is easier to make everything compatible 
 ## Setup
 
 Copy the `.env.example` file contents into `.env`.
-Inside the .env file, there should be keys tha are named `FOURSQUARE_API_KEY` and `OPEN_WEATHER_MAP_API_KEY`.
+Inside the .env file, there should be keys that are named `FOURSQUARE_API_KEY` and `OPEN_WEATHER_MAP_API_KEY`.
 Put your API keys there.
 
 1. Clone this repository
@@ -40,7 +40,17 @@ Put your API keys there.
 6. `php artisan serve`
 7. Done.
 
-## Demo
+## Features
 
-TODO
+- Temperature
+- Current Weather
+- View on Map
+- Place image (from FourSquare)
+- View Place Reviews
+
+## Screenshots
+
+![Travel App](https://i.imgur.com/Bc3n8zy.png)
+![Travel App](https://i.imgur.com/3KAMl3k.png)
+
 
