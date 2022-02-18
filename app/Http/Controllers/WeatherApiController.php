@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class WeatherApiController extends Controller
 {
-    private function fetch_weather($city) {
+    private function fetchWeather($city) {
         $params = [
             'appid' => env('OPEN_WEATHER_MAP_API_KEY'),
             'units' => 'metric',
@@ -68,7 +68,7 @@ class WeatherApiController extends Controller
     }
 
     public function show($city) {
-        $weather = $this->fetch_weather($city);
+        $weather = $this->fetchWeather($city);
         return $weather;
     }
 }

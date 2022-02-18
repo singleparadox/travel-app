@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Log;
 
 class CalculationHelper
 {
-    public static function calculate_random_coordinate($ll = '', $miles = 3)
+    public static function calculateRandomCoordinate($ll = '', $miles = 3)
     {
         $ll = explode(',', $ll);
 

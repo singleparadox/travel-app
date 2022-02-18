@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('places/{city}', 'App\Http\Controllers\PlacesApiController@show');
-Route::get('places/reviews/{fsq_id}', 'App\Http\Controllers\PlacesApiController@fetch_place_tips');
+Route::get('places/reviews/{fsq_id}', 'App\Http\Controllers\PlacesApiController@fetchPlaceTips');
 
 Route::get('weather/{city}', 'App\Http\Controllers\WeatherApiController@show');
 
