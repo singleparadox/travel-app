@@ -51,6 +51,7 @@ Put your API keys there.
 ## Screenshots
 
 ![Travel App](https://i.imgur.com/Bc3n8zy.png)
+
 ![Travel App](https://i.imgur.com/3KAMl3k.png)
 
 
